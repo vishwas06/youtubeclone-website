@@ -1,0 +1,41 @@
+.sidebar{
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(220, 220, 220);
+    width: 75px;
+    display: flex;
+    flex-direction:column;
+    z-index: 200;
+}
+
+.home-img, .explore-img,
+.subscriptions-img, .library-img, .originals-img,
+.youtube-music-img{
+    padding-top:25px;
+    height: 20px;
+}
+
+.home, .explore,
+.subscriptions, .library, .originals,
+.youtube-music{
+    padding: 4px;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 10px;
+}
+
+.slides{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slides:hover{
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
